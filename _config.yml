@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -95,8 +95,8 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+# # Plugins: https://hexo.io/plugins/
+# # Themes: https://hexo.io/themes/
 theme: hexo-theme-next-master
 
 # Deployment
@@ -105,3 +105,14 @@ deploy:
   type: git
   repository: https://github.com/FboatHongfeng/FboatHongfeng.github.io.git
   branch: main
+
+
+# 按分类排序文章
+
+tree_menu:
+
+order_by: 'menu'
+
+folder_sort_by: 'menu'
+
+folder_first: true

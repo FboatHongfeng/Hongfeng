@@ -1,8 +1,8 @@
 ---
-title: C++2.0
-type: tags
+title: 1C++2.0
+top: 2000
+menu: 1244
 tags:
-    - tags
     - tags2
 ---
 # C++学习 之 成员初始化列表
