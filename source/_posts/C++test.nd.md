@@ -1,5 +1,6 @@
 ---
-title: 1C++2.0
+title: 2C++2.0
+date: 1
 top: 2000
 menu: 1244
 tags:
